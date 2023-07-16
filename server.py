@@ -37,8 +37,9 @@ while True:
     data = client_socket.recv(1024)
     print(f"Received message: {data.decode()}")
 
+    ## You can EDIT the response to send a custom message to client
     # Send a response back to the client
-    response = "Hello, this is BITS ID 2022MT13068"
+    response = "Hello, this is 2023 year"
     client_socket.sendall(response.encode())
 
     # Open the file to be sent

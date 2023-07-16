@@ -1,3 +1,4 @@
 Hello, this is the content of the file example.txt sent from the server.
 
-BITS 2022MT13068
+2000
+
